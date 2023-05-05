@@ -44,7 +44,7 @@ body {
 
     @keyframes nameTitle {
       from {
-        transform: translateX(-400px);
+        transform: translateX(-1000px);
       }
 
       to {
@@ -106,12 +106,13 @@ body {
 .hiddenInfo {
   display: none;
   position: absolute;
-  right: -10px;
+  left: 0;
   animation: skills 0.15s ease-in;
   background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
   color: black;
+  font-size: 14px;
 }
 
 @keyframes skills {
@@ -195,7 +196,6 @@ body {
     .projectTitle {
       font-size: 26px;
       font-weight: 700;
-      cursor: pointer;
       margin-bottom: 18px;
     }
 
